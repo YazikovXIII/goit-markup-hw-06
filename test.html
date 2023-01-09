@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>test</title>
 </head>
 
 <body>
@@ -315,4 +326,31 @@
             title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." />
     </label>
     <button type="submit">Submit</button>
+</form>
+
+<br>
+<p>forma</p>
+
+<form class="form">
+    <b class="modal-header">Leave your contact and we will call you back</b>
+    <div class="field_group">
+        <div class="form_field">
+            <label for="name" class="form_label">Name</label>
+            <input type="text" id="name" name="User_name" class="form_input">
+        </div>
+        <div class="form_field">
+            <label for="tel" class="form_label">Phone</label>
+            <input type="tel" id="tel" name="User_phone" class="form_input">
+        </div>
+        <div class="form_field">
+            <label for="email" class="form_label">Email</label>
+            <input type="email" id="email" name="User_email" class="form_input">
+        </div>
+        <div class="form_field">
+            <label for="textarea" class="form_label">Comment</label>
+            <textarea name="Comment" id="textarea" cols="" rows="" placeholder="Input text"
+                class="form_comment"></textarea>
+        </div>
+    </div>
+    <button type="submit">Send</button>
 </form>

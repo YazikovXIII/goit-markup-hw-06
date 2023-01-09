@@ -83,11 +83,55 @@
                             <use href="./img/upd_symbol.svg#icon_cross"></use>
                         </svg>
                     </button>
-                    <p class="modal-content">Work in progress!</p>
+
+                    <form class="form">
+                        <b class="modal-header">Leave your contact and we will call you back</b>
+                        <div class="field_group">
+                            <div class="form_field">
+                                <label for="name" class="form_label">Name</label>
+                                <div class="input-field">
+                                    <input type="text" id="name" name="User_name" class="form_input">
+                                    <svg class="icon_person">
+                                        <use href="./img/svgomg icons/upd_symbol.svg#icon_person"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="form_field">
+                                <label for="tel" class="form_label">Phone</label>
+                                <div class="input-field">
+                                    <input type="tel" id="tel" name="User_phone" class="form_input">
+                                    <svg class="icon_tel">
+                                        <use href="./img/svgomg icons/upd_symbol.svg#icon_tel"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="form_field">
+                                <label for="email" class="form_label">Email</label>
+                                <div class="input-field">
+                                    <input type="email" id="email" name="User_email" class="form_input">
+                                    <svg class="icon_mail">
+                                        <use href="./img/svgomg icons/upd_symbol.svg#icon_mail"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="form_field">
+                                <label for="textarea" class="form_label">Comment</label>
+                                <textarea name="Comment" id="textarea" placeholder="Input text"
+                                    class="form_comment"></textarea>
+                            </div>
+                            <div class="form_field_check">
+                                <input type="checkbox" name="agreement" value="" id="agreement" class="check__input">
+                                <span class="check__box"></span> <label for="agreement" class="policy_label">I accept
+                                    the terms and conditions of the <a href="#">Privacy Policy</a></label>
+                            </div>
+                        </div>
+                        <button type="submit">Send</button>
+                    </form>
                 </div>
 
             </div>
         </section>
+
 
         <!-- features -->
         <section class="section-features">
