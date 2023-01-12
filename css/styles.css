@@ -327,13 +327,14 @@ header .container {
 }
 
 .modal-button-closer:focus {
-	fill: var(--iris);
+	fill: var(--navy-blue);
 	outline: none;
+	border: none;
 }
 
 .modal-button-closer:hover {
-	fill: var(--iris);
-
+	fill: var(--navy-blue);
+	border: none;
 }
 
 .form {
@@ -487,6 +488,7 @@ header .container {
 	background-repeat: no-repeat;
 	background-origin: border-box;
 }
+
 
 
 .check__input:checked+.check__box {
@@ -797,7 +799,7 @@ header .container {
 }
 
 .input-email:focus {
-	border: 1px solid rgb(151, 71, 255);
+	border: 1px solid var(--iris);
 	outline: transparent;
 }
 
