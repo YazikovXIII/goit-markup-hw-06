@@ -482,11 +482,11 @@ header .container {
 	top: 50%;
 	left: 0;
 	transform: translateY(-50%);
-	background-image: url(/img/uncheck.svg);
+	background-image: url(../img/uncheck.svg);
 }
 
 .check__input:checked+.check__box {
-	background-image: url(/img/check.svg);
+	background-image: url(../img/check.svg);
 	background-color: var(--iris);
 	border-radius: 2px;
 }
